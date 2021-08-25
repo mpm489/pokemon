@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+
+.pokedex {
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/bg_pokemon.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.pokekarten {
+    
+    min-height: 100px;
+    min-width: 100px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.pokebild {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-color: rgb(36, 118, 212);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.pokebild:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.pokename {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    margin-right: 110px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 30px darkblue;
+}
+
+.pokename h2 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.d-none {
+    display: none;
+}
+
+.out {
+    font-size: 44px;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 170px;
+    margin-right: 800px;
+    background-color:yellow;
+    width: 50px;
+    text-align: center;
+}
+
+.out:hover {
+    cursor: pointer;
+    color:  rgb(36, 118, 212);
+    transform: scale(1.3);
+}
+
+.pokeBild {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-top: 140px;
+   
+   
+}
+
+.h1Text {
+    position: absolute;
+    margin-top: 60px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.h1Text1 {
+    position: absolute;
+    margin-top: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.bgcolor{
+   
+    height: 240px;
+    width: 235px;
+    background-color: rgb(36, 118, 212);
+    margin-top: 325px;
+    margin-right: 25px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top: 10px solid rgb(255, 251, 37);
+    color:rgb(36, 118, 212);
+    font-size: 22px;
+    line-height: 2em;
+
+}
+.margin{
+    margin: 16px;
+    }
+    
+.bggelb{
+    background-color: yellow;
+    margin: 16px;
+   
+
+}
+
