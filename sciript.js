@@ -1,4 +1,5 @@
 let pokemons = [];
+//ADI aba Al 
 
 async function loadPokemons() {
     let url = `https://pokeapi.co/api/v2/pokemon?limit=100&offset=0`;
